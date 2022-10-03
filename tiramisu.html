@@ -5,6 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiramisu</title>
+
+    <style>
+
+* {
+    font-family: 'Noto Sans Mono', monospace;
+        }
+        #header-title{
+            font-family: 'Noto Sans Mono', monospace;
+    
+        }
+        table{
+            
+            font-size: large;
+            
+        }
+        body{
+            background-color: rgb(172, 178, 207);
+        }
+        dl:hover{
+            background-color:rgb(127, 120, 184);
+        }
+        a[href="https"]
+        {
+            color:blueviolet;
+        }
+        a:hover{
+            background-color: green;
+        }
+        fieldset{
+            width:auto;
+            border: 1px dashed #dcdcdc;
+            border-radius:10px;
+            padding: 30px;
+            text-align:left;
+            background-color:#dcdcdc; 
+        }
+        .img1{
+            box-shadow: -5px 5px 5px 4px ;
+        }
+
+    </style>
+    </style>
 </head>
 <body>
     <table width="1000" align="center">
@@ -14,13 +56,13 @@
             <h1><b>Tiramisu</b></h1>
         </th> 
         <th></th>
-    <th align="right" ><a href="https:www.amazon.com" target="_blank">Go to Amazon</a>
+    <th align="right" ><a href="#" target="_blank">Go to Amazon</a>
     </th>
 
-</tr>
+</tr>s
 <tr>
-  <td>
-     <p>Posted on <i>June 13, 2019</i>/posted in <a href="#">No-Bake Recipes</a> </p> 
+  <td colspan="3">
+ <p>Posted on <i>June 13, 2019</i>/posted in <a href="#">No-Bake Recipes</a> </p> 
     </td>
 </tr>
 
@@ -56,9 +98,7 @@
 <tr>
     <td colspan="3" align="left">
     <ul>
-       
-        <li>
-            1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature
+        <li> 1 and 1/4 cups (300ml) very strongly prepared espresso, warm or room temperature
         </li>
         <li>6 Tablespoons (90ml) Grand Marnier*</li>
         <li>40–45 ladyfingers*</li>
@@ -91,7 +131,7 @@
 <tr>
 <td  colspan="3" align="left">
 <dl>
-   <dt> <b>What kind of rum do I use in tiramisu?</b> </dt>
+<dt> <b>What kind of rum do I use in tiramisu?</b> </dt>
 <dd>Dark rum is best, but you can use brandy or your favorite coffee liqueur.</dd>
 <dt><b>Egg whites or whipped cream?</b></dt>
 <dd>Most tiramisu recipes use whipped egg whites OR whipped cream in the mascarpone cream layers. Egg whites contribute a more airy texture, while whipped cream makes the filling a bit more rich. This recipe actually uses both, so you’re getting both delightful textures.</dd>
@@ -103,48 +143,52 @@
 </dl>
 </td>
 <tr><td align="left" colspan="3">
-
+<!--Form -->
     <fieldset>
 
         <legend><h1><b>Order online now!</b></h1>
             <form>
                 <label  for="name">Name </labeL>
-                    <input type="text" name="Name" placeholder="Name" id="name">
-                 
+                    <input type="text" name="Name" placeholder="Name" id="name"required >
+            
                 <label  for="surname">Surname </labeL>
-                    <input type="text" name="Surname" placeholder="Surname" id="surname">
+                    <input type="text" name="Surname" placeholder="Surname" id="surname"required >
                     <label  for="Tel">Tel </labeL>
-                        <input type="num" name="Tel" placeholder="Tel" id="Tel">
+                        <input type="num" name="Tel" placeholder="Tel" id="Tel"required >
                     <label for="no">Orders
-        <input type="number" name="Orders" placeholder="Number of orders" id="no"><br/>
+        <input type="number" name="Orders" placeholder="Number of orders" id="no"required > 
 
         
         <label for="cakes" id="recipes"> Select a cake</label>
         <select name="recipes" id="recipes">
-            <option value="Cheese cake">Cheese cake </option>
-            <option value="Cheese cake">Carrot cake  </option>
-            <option value="Cheese cake">Red velvet </option>
-            <option value="Cheese cake">Tiramisu </option>
+            
+            <option value="Cheese cake"required  >Cheese cake </option>
+            <option value="Cheese cake"required  >Carrot cake  </option>
+            <option value="Cheese cake"required  >Red velvet </option>
+            <option value="Cheese cake"required  >Tiramisu </option>
+
         </select>
         
                     </label>
                     <br/>
-                    <button type="submit" name="Porosit">Porosit</button>
-                    <button type="reset" name="Fshij">Fshij</button>
+                    <button type="submit" name="Porosit">Order</button>
+                    <button type="reset" name="Fshij">Reset</button>
+                    <br/>
         
         
             </form>
         </legend>
     
-    </fieldset>
+    </fieldset> 
 </td></tr>
 </tr>
 <tr>
-<td align="center" colspan="3"><i>For  more see the recipe in Youtube</i></td>
+<td align="left" colspan="3"><i><b>For  more see the recipe in Youtube</b>></i></td>
 </tr>
-<tr><td align="center" colspan="3">
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/7VTtenyKRg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td></tr>
-
-
+<tr><td align="left" colspan="3">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/7VTtenyKRg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="400px"></iframe>
+ </td>
+</tr>
+ 
 </body>
 </html>
