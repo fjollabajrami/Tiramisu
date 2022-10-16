@@ -7,57 +7,44 @@
     <title>Tiramisu</title>
 
 <style>
-:root{
---litxtcolor:red;
---boxshadow:-5px 5px 4px 5px;
-
-}
-
-
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Oswald:wght@600&display=swap");
 * {
         font-family: 'Noto Sans Mono', monospace;
-    background-image: url('./sweets-background-macaron-colorful-pink-90519635\ \(1\).jpg');
-    background-size:auto;
+    background: url('./img/backg-cake.jpg') no-repeat center fixed;
+  background-size:auto;
+    background-size: cover;
+    opacity:1;
 }
 
 #title{
-    color:rgb(170, 69, 69);
+    color:rgb(206, 112, 63);
             box-shadow: -5px 5px 4px 5px ;
             border-top: none;
             margin:0px 30px;
-            display:inline-block;
+    
 }
     
         fieldset{
             width:auto;
-            border: 1px dashed #dcdcdc;
-            border-radius:10px;
+            border:none;
             padding: 30px;
-            text-align:left;
-            background-color:#766262; 
-            font-optical-sizing: #766262;
+            opacity:0.9;
+        
         }
         .unique1{
             box-shadow: -5px 5px 5px #766262;
             box-sizing: border-box;
         }
 .border{
-        border:4px solid black;
+        /* border:4px solid black; */
         background-color:rgb(213, 227, 226);
         border-color: #766262;
     }
-table {
-        border-bottom: #766262;
-        border-radius: 20%;
-    }
+
 .container{
     width: 900px;
-    margin: 0 auto;
-    
-    border:1px solid RGB(240, 102, 144);
+    margin: 10px auto;
     font-family: 'Noto Sans Mono', monospace;
-    background-image: url('./sweets-background-macaron-colorful-pink-90519635\ \(1\).jpg');
     background-size:auto;
 
 }
@@ -69,26 +56,37 @@ table {
 }
 
 ul {
+    list-style-type: none;
 list-style-image: url(./icon1.jpg);
-padding:30px;
+padding:0 30px;
 }
+/* ul li :hover{
+background-color:tomato;
+} */
+ul li a:hover, ul li a:focus {
+color:grey;
+}
+
 
 label{
     display:block;
     font-weight: bold;
     padding-bottom: 5px;
-    border:2px bold rgb(168, 88, 54);
+    border:2px bold black;
 
 }
-ul  :hover{
-            background-color:rgb(50, 35, 24);
-        }
+
         a[href^="https"]
         {
             color:rgb(144, 185, 183);
-        }
-        a:hover{
+            $:hover{
             background-color: rgb(46, 24, 9);
+        }
+        }
+
+        .borders{
+border:none;
+
         }
 
     </style> 
@@ -97,10 +95,10 @@ ul  :hover{
 </head>
 <body>
     <div class="container">
-        <table width="1000" align="center" class="border" >
+        <table width="1000" align="center" >
         
             <tr>
-            <th align="left" class="brd" class="unique1">
+            <th align="left"  >
                 <h1 id="title"><b>Tiramisu</b></h1>
             </th> 
             <th></th>
@@ -169,7 +167,7 @@ ul  :hover{
     </tr>
     <tr>
         <td width="auto" colspan="3">
-            <img src="./img/tiramisu.jpg" width="750" class="unique1">
+            <img src="./img/tiramisu.jpg" width="750">
         </td>
     </tr>
     
@@ -233,9 +231,9 @@ ul  :hover{
     </td></tr>
     </tr>
     <tr>
-    <td align="left" colspan="3"><b>You can find us at the address below!</b></td>
+    <td align="left" colspan="3" class="borders"><b>You can find us at the address below! </b></td>
     </tr>
-    <tr><td align="left" colspan="3" class="img1">
+    <tr><td align="left" colspan="3" >
       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7VTtenyKRg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="400px"></iframe> -->
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.0754224787192!2d21.159122115281566!3d42.65975707916785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549f3a1af3ce2d%3A0x26c2d82b4e221393!2sBake%26Cake%20Coffee%20Shop!5e0!3m2!1sen!2s!4v1665339113835!5m2!1sen!2s" width="600" height="450" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
      </td>
